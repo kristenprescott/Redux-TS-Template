@@ -1,4 +1,3 @@
-import React from "react";
 import { InlineStylesModel } from "models/InlineStylesModel";
 
 const styles: InlineStylesModel = {

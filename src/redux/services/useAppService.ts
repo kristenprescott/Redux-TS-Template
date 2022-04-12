@@ -3,11 +3,10 @@ import { ApplicationModel } from "models/ApplicationModel";
 import { ReduxState } from "redux/rootReducer";
 
 /* ****************** Interfaces ****************** */
-interface GetCompaniesResponseModel {
-  totalCount: number;
-  data?: [];
-  //   data: CompanyModel[];
-}
+// interface GetCompaniesResponseModel {
+//   totalCount: number;
+//   data: CompanyModel[];
+// }
 
 /* ****************** Variables ****************** */
 const appBaseUrl = process.env.REACT_APP_APP_BASE_URL;
